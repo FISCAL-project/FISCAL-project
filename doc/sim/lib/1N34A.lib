@@ -1,0 +1,9 @@
+**********
+* Copyright (C) 2007 Free Software Foundation, Inc.
+* Everyone is permitted to copy and distribute verbatim copies
+* of this license document, but changing it is not allowed.
+**********
+*SRC=1N34A germanium diode
+.MODEL 1N34A D(BV=2.49E+01 CJO=8.06E-13 EG=6.65E-01
++ IBV=3.03E-03 IS=2.58E-06 N=1.61E+00 RS=6.45E+00)
+* 1N34A germanium diode: https://my.centralsemi.com/get_document.php?cmp=1&mergetype=pd&mergepath=pd&pdf_id=1N34A.PDF

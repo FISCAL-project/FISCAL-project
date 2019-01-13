@@ -1,0 +1,8 @@
+**********
+* Copyright (C) 2007 Free Software Foundation, Inc.
+* Everyone is permitted to copy and distribute verbatim copies
+* of this license document, but changing it is not allowed.
+**********
+*SRC=SB160;DI_SB160;Diodes;Si;  60.0V  1.00A  5.00ns   Diodes Inc. Schottky
+.MODEL DI_SB160 D  ( IS=1.17u RS=42.0m BV=60.0 IBV=500u
++ CJO=172p  M=0.333 N=1.28 TT=7.20n )
