@@ -1551,7 +1551,7 @@ Wire Wire Line
 Text GLabel 5450 5950 2    50   Input ~ 0
 Mic_in_analog
 Text Notes 7850 2400 0    79   ~ 0
-Mic_in AVR (optional)
+Mic_in AVC (optional)
 $Comp
 L Transistor_BJT:2N3904 Q?
 U 1 1 5C44531A
@@ -1912,7 +1912,7 @@ Connection ~ 9550 3950
 Wire Wire Line
 	7350 2850 7450 2850
 Text GLabel 9650 2850 2    50   Input ~ 0
-Mic_in_AVR_out
+Mic_in_AVC_out
 Wire Wire Line
 	9650 2850 9550 2850
 Connection ~ 9550 2850
@@ -1928,7 +1928,7 @@ F 3 "" H 8450 5200 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 Text Notes 6800 4550 0    79   ~ 0
-Mic_in AVR amplifier (optional)
+Mic_in AVC amplifier (optional)
 $Comp
 L power:+3.3V #PWR?
 U 1 1 5C823185
@@ -2251,7 +2251,7 @@ Connection ~ 7800 5250
 Wire Wire Line
 	7800 5250 8150 5250
 Text GLabel 7400 5250 0    50   Input ~ 0
-Mic_in_AVR_out
+Mic_in_AVC_out
 Wire Wire Line
 	7400 5250 7500 5250
 $Comp
@@ -2425,7 +2425,7 @@ Connection ~ 8100 5150
 Wire Wire Line
 	8100 5150 8150 5150
 Text Label 8100 4750 0    50   ~ 0
-AVR_AMP_stg1_out
+AVC_AMP_stg1_out
 $Comp
 L Device:R_Small_US R?
 U 1 1 5C82AEB3
@@ -2504,7 +2504,7 @@ Wire Wire Line
 Wire Wire Line
 	10100 5350 10850 5350
 Text Label 10150 5350 0    50   ~ 0
-AVR_AMP_stg1_out
+AVC_AMP_stg1_out
 Wire Wire Line
 	9300 5250 9300 4950
 Connection ~ 9300 5250
@@ -2568,5 +2568,5 @@ Also compatible with\nMIC Electret 34320\n(8430552079520)
 Text Notes 500  5650 0    50   ~ 0
 Standalone\nPWR ON/OFF\nswitch
 Text Notes 6600 4000 0    50   ~ 0
-All MIC_in AVR's\nSB160s can be\nreplaced by 1N34A\nor similar
+All MIC_in AVC's\nSB160s can be\nreplaced by 1N34A\nor similar
 $EndSCHEMATC
