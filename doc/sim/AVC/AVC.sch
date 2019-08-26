@@ -48,7 +48,7 @@ F 1 "AC SIN VAR 20 Hz" H 2878 2305 50  0000 L CNN
 F 2 "" H 2650 2350 50  0001 C CNN
 F 3 "~" H 2650 2350 50  0001 C CNN
 F 4 "V" H 2650 2350 50  0001 C CNN "Spice_Primitive"
-F 5 "dc 0 sin(0 1500m 20000)" H 2650 2350 50  0001 C CNN "Spice_Model"
+F 5 "dc 0 sin(0 1.5 20k)" H 2650 2350 50  0001 C CNN "Spice_Model"
 F 6 "Y" H 2650 2350 50  0001 C CNN "Spice_Netlist_Enabled"
 	1    2650 2350
 	1    0    0    -1  
@@ -100,13 +100,13 @@ L pspice:DIODE D1
 U 1 1 5C342E4A
 P 3900 5000
 F 0 "D1" H 3900 5265 50  0000 C CNN
-F 1 "1N34A" H 3900 5174 50  0000 C CNN
+F 1 "SB160" H 3900 5174 50  0000 C CNN
 F 2 "" H 3900 5000 50  0001 C CNN
 F 3 "~" H 3900 5000 50  0001 C CNN
 F 4 "D" H 3900 5000 50  0001 C CNN "Spice_Primitive"
-F 5 "1N34A" H 3900 5000 50  0001 C CNN "Spice_Model"
+F 5 "DI_SB160" H 3900 5000 50  0001 C CNN "Spice_Model"
 F 6 "Y" H 3900 5000 50  0001 C CNN "Spice_Netlist_Enabled"
-F 7 "/media/ppajuel/embedded/repos/publicrepo/FISCAL-project/doc/sim/lib/1N34A.lib" H 3900 5000 50  0001 C CNN "Spice_Lib_File"
+F 7 "/media/ppajuel/embedded/repos/publicrepo/FISCAL-project/doc/sim/lib/SB160.lib" H 3900 5000 50  0001 C CNN "Spice_Lib_File"
 	1    3900 5000
 	1    0    0    -1  
 $EndComp
@@ -115,13 +115,13 @@ L pspice:DIODE D2
 U 1 1 5C342F78
 P 4400 5000
 F 0 "D2" H 4400 5265 50  0000 C CNN
-F 1 "1N34A" H 4400 5174 50  0000 C CNN
+F 1 "SB160" H 4400 5174 50  0000 C CNN
 F 2 "" H 4400 5000 50  0001 C CNN
 F 3 "~" H 4400 5000 50  0001 C CNN
 F 4 "D" H 4400 5000 50  0001 C CNN "Spice_Primitive"
-F 5 "1N34A" H 4400 5000 50  0001 C CNN "Spice_Model"
+F 5 "DI_SB160" H 4400 5000 50  0001 C CNN "Spice_Model"
 F 6 "Y" H 4400 5000 50  0001 C CNN "Spice_Netlist_Enabled"
-F 7 "/media/ppajuel/embedded/repos/publicrepo/FISCAL-project/doc/sim/lib/1N34A.lib" H 4400 5000 50  0001 C CNN "Spice_Lib_File"
+F 7 "/media/ppajuel/embedded/repos/publicrepo/FISCAL-project/doc/sim/lib/SB160.lib" H 4400 5000 50  0001 C CNN "Spice_Lib_File"
 	1    4400 5000
 	1    0    0    -1  
 $EndComp
@@ -130,13 +130,13 @@ L pspice:DIODE D3
 U 1 1 5C342FF5
 P 7700 5500
 F 0 "D3" H 7700 5765 50  0000 C CNN
-F 1 "1N34A" H 7700 5674 50  0000 C CNN
+F 1 "SB160" H 7700 5674 50  0000 C CNN
 F 2 "" H 7700 5500 50  0001 C CNN
 F 3 "~" H 7700 5500 50  0001 C CNN
 F 4 "D" H 7700 5500 50  0001 C CNN "Spice_Primitive"
-F 5 "1N34A" H 7700 5500 50  0001 C CNN "Spice_Model"
+F 5 "DI_SB160" H 7700 5500 50  0001 C CNN "Spice_Model"
 F 6 "Y" H 7700 5500 50  0001 C CNN "Spice_Netlist_Enabled"
-F 7 "/media/ppajuel/embedded/repos/publicrepo/FISCAL-project/doc/sim/lib/1N34A.lib" H 7700 5500 50  0001 C CNN "Spice_Lib_File"
+F 7 "/media/ppajuel/embedded/repos/publicrepo/FISCAL-project/doc/sim/lib/SB160.lib" H 7700 5500 50  0001 C CNN "Spice_Lib_File"
 	1    7700 5500
 	1    0    0    -1  
 $EndComp
@@ -145,13 +145,13 @@ L pspice:DIODE D4
 U 1 1 5C3430D3
 P 8300 5500
 F 0 "D4" H 8300 5765 50  0000 C CNN
-F 1 "1N34A" H 8300 5674 50  0000 C CNN
+F 1 "SB160" H 8300 5674 50  0000 C CNN
 F 2 "" H 8300 5500 50  0001 C CNN
 F 3 "~" H 8300 5500 50  0001 C CNN
 F 4 "D" H 8300 5500 50  0001 C CNN "Spice_Primitive"
-F 5 "1N34A" H 8300 5500 50  0001 C CNN "Spice_Model"
+F 5 "DI_SB160" H 8300 5500 50  0001 C CNN "Spice_Model"
 F 6 "Y" H 8300 5500 50  0001 C CNN "Spice_Netlist_Enabled"
-F 7 "/media/ppajuel/embedded/repos/publicrepo/FISCAL-project/doc/sim/lib/1N34A.lib" H 8300 5500 50  0001 C CNN "Spice_Lib_File"
+F 7 "/media/ppajuel/embedded/repos/publicrepo/FISCAL-project/doc/sim/lib/SB160.lib" H 8300 5500 50  0001 C CNN "Spice_Lib_File"
 	1    8300 5500
 	1    0    0    -1  
 $EndComp
