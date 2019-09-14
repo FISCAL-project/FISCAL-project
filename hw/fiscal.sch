@@ -6,8 +6,8 @@ $Descr A4 11693 8268
 encoding utf-8
 Sheet 1 1
 Title "FISCAL Expansion board"
-Date "2019-09-11"
-Rev "v02"
+Date "2019-09-13"
+Rev "v01"
 Comp ""
 Comment1 ""
 Comment2 "https://www.gnu.org/licenses/gpl-3.0.en.html"
@@ -294,12 +294,12 @@ $EndComp
 $Comp
 L power:GNDD #PWR026
 U 1 1 5C16C428
-P 3700 4100
-F 0 "#PWR026" H 3700 3850 50  0001 C CNN
-F 1 "GNDD" H 3704 3945 50  0000 C CNN
-F 2 "" H 3700 4100 50  0001 C CNN
-F 3 "" H 3700 4100 50  0001 C CNN
-	1    3700 4100
+P 3850 4150
+F 0 "#PWR026" H 3850 3900 50  0001 C CNN
+F 1 "GNDD" H 3854 3995 50  0000 C CNN
+F 2 "" H 3850 4150 50  0001 C CNN
+F 3 "" H 3850 4150 50  0001 C CNN
+	1    3850 4150
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
@@ -330,11 +330,9 @@ Connection ~ 5200 3600
 Wire Wire Line
 	5200 3600 5200 3650
 Wire Wire Line
-	3850 4100 3700 4100
-Text GLabel 3800 4000 0    50   Input ~ 0
+	3850 4100 3850 4150
+Text GLabel 3150 4000 0    50   Input ~ 0
 PC3_LSin
-Wire Wire Line
-	3850 4000 3800 4000
 $Comp
 L Diode:1N4004 D4
 U 1 1 5C173609
@@ -2647,4 +2645,33 @@ Wire Wire Line
 	1450 1400 1450 1650
 Wire Wire Line
 	5900 1750 5900 1900
+$Comp
+L Jumper:SolderJumper_3_Open JP3
+U 1 1 5D80B9DA
+P 3600 4150
+F 0 "JP3" V 3646 4218 50  0000 L CNN
+F 1 "SolderJumper_3_Open" V 3555 4218 50  0000 L CNN
+F 2 "Jumper:SolderJumper-3_P1.3mm_Open_RoundedPad1.0x1.5mm_NumberLabels" H 3600 4150 50  0001 C CNN
+F 3 "~" H 3600 4150 50  0001 C CNN
+	1    3600 4150
+	0    -1   -1   0   
+$EndComp
+Text GLabel 3200 4300 0    50   Input ~ 0
+PF6_MICin
+Wire Wire Line
+	3850 4000 3750 4000
+Wire Wire Line
+	3750 4000 3750 4150
+Wire Wire Line
+	3150 4000 3550 4000
+Wire Wire Line
+	3550 4000 3550 3950
+Wire Wire Line
+	3550 3950 3600 3950
+Wire Wire Line
+	3200 4300 3550 4300
+Wire Wire Line
+	3550 4300 3550 4350
+Wire Wire Line
+	3550 4350 3600 4350
 $EndSCHEMATC
