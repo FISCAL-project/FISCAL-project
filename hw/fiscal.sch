@@ -6,7 +6,7 @@ $Descr A4 11693 8268
 encoding utf-8
 Sheet 1 1
 Title "FISCAL Expansion board"
-Date "2019-09-18"
+Date "2019-09-19"
 Rev "v01"
 Comp ""
 Comment1 ""
