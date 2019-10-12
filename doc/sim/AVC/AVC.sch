@@ -106,7 +106,7 @@ F 3 "~" H 3900 5000 50  0001 C CNN
 F 4 "D" H 3900 5000 50  0001 C CNN "Spice_Primitive"
 F 5 "DI_1N5819" H 3900 5000 50  0001 C CNN "Spice_Model"
 F 6 "Y" H 3900 5000 50  0001 C CNN "Spice_Netlist_Enabled"
-F 7 "/media/ppajuel/embedded/repos/publicrepo/floyd_tuner/doc/sim/lib/1N5819_2.lib" H 3900 5000 50  0001 C CNN "Spice_Lib_File"
+F 7 "../lib/SB160.lib" H 3900 5000 50  0001 C CNN "Spice_Lib_File"
 	1    3900 5000
 	1    0    0    -1  
 $EndComp
@@ -121,7 +121,7 @@ F 3 "~" H 4400 5000 50  0001 C CNN
 F 4 "D" H 4400 5000 50  0001 C CNN "Spice_Primitive"
 F 5 "DI_1N5819" H 4400 5000 50  0001 C CNN "Spice_Model"
 F 6 "Y" H 4400 5000 50  0001 C CNN "Spice_Netlist_Enabled"
-F 7 "/media/ppajuel/embedded/repos/publicrepo/floyd_tuner/doc/sim/lib/1N5819_2.lib" H 4400 5000 50  0001 C CNN "Spice_Lib_File"
+F 7 "../lib/SB160.lib" H 4400 5000 50  0001 C CNN "Spice_Lib_File"
 	1    4400 5000
 	1    0    0    -1  
 $EndComp
@@ -136,7 +136,7 @@ F 3 "~" H 7700 5500 50  0001 C CNN
 F 4 "D" H 7700 5500 50  0001 C CNN "Spice_Primitive"
 F 5 "DI_1N5819" H 7700 5500 50  0001 C CNN "Spice_Model"
 F 6 "Y" H 7700 5500 50  0001 C CNN "Spice_Netlist_Enabled"
-F 7 "/media/ppajuel/embedded/repos/publicrepo/floyd_tuner/doc/sim/lib/1N5819_2.lib" H 7700 5500 50  0001 C CNN "Spice_Lib_File"
+F 7 "../lib/SB160.lib" H 7700 5500 50  0001 C CNN "Spice_Lib_File"
 	1    7700 5500
 	1    0    0    -1  
 $EndComp
@@ -151,7 +151,7 @@ F 3 "~" H 8300 5500 50  0001 C CNN
 F 4 "D" H 8300 5500 50  0001 C CNN "Spice_Primitive"
 F 5 "DI_1N5819" H 8300 5500 50  0001 C CNN "Spice_Model"
 F 6 "Y" H 8300 5500 50  0001 C CNN "Spice_Netlist_Enabled"
-F 7 "/media/ppajuel/embedded/repos/publicrepo/floyd_tuner/doc/sim/lib/1N5819_2.lib" H 8300 5500 50  0001 C CNN "Spice_Lib_File"
+F 7 "../lib/SB160.lib" H 8300 5500 50  0001 C CNN "Spice_Lib_File"
 	1    8300 5500
 	1    0    0    -1  
 $EndComp
