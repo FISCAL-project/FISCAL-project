@@ -6,7 +6,7 @@ $Descr A4 11693 8268
 encoding utf-8
 Sheet 1 1
 Title "FISCAL Expansion board"
-Date "2019-09-22"
+Date "2019-10-13"
 Rev "v01"
 Comp ""
 Comment1 ""
@@ -308,7 +308,7 @@ L Device:R_Small_US R26
 U 1 1 5C1794AB
 P 5000 4650
 F 0 "R26" H 5068 4696 50  0000 L CNN
-F 1 "1Meg" H 5068 4605 50  0000 L CNN
+F 1 "220K" H 5068 4605 50  0000 L CNN
 F 2 "Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder" H 5000 4650 50  0001 C CNN
 F 3 "~" H 5000 4650 50  0001 C CNN
 	1    5000 4650
@@ -1078,6 +1078,7 @@ F 0 "R3" H 9668 1096 50  0000 L CNN
 F 1 "0R" H 9668 1005 50  0000 L CNN
 F 2 "Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder" H 9600 1050 50  0001 C CNN
 F 3 "~" H 9600 1050 50  0001 C CNN
+F 4 "NP" H 9500 950 50  0000 C CNN "NP"
 	1    9600 1050
 	1    0    0    -1  
 $EndComp
@@ -1089,7 +1090,6 @@ F 0 "R4" H 9918 1141 50  0000 L CNN
 F 1 "0R" H 9918 1050 50  0000 L CNN
 F 2 "Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder" H 9850 1050 50  0001 C CNN
 F 3 "~" H 9850 1050 50  0001 C CNN
-F 4 "NP" H 9918 959 50  0000 L CNN "NP"
 	1    9850 1050
 	1    0    0    -1  
 $EndComp
@@ -1255,7 +1255,7 @@ Wire Wire Line
 	9400 1750 9550 1750
 Wire Wire Line
 	9150 1750 9000 1750
-Text Notes 9050 1450 0    50   ~ 0
+Text Notes 7000 1400 0    50   ~ 0
 Add tape to change\nslightly the sound
 Text Notes 4650 5250 0    79   ~ 0
 MIC input amplifier&conditioner
@@ -1417,9 +1417,9 @@ L Diode:SB160 D2
 U 1 1 5C4C854D
 P 6800 3550
 F 0 "D2" H 6800 3334 50  0000 C CNN
-F 1 "SB160" H 6800 3425 50  0000 C CNN
+F 1 "1N5819" H 6800 3425 50  0000 C CNN
 F 2 "Diode_THT:D_DO-41_SOD81_P10.16mm_Horizontal" H 6800 3375 50  0001 C CNN
-F 3 "http://www.diodes.com/_files/datasheets/ds23022.pdf" H 6800 3550 50  0001 C CNN
+F 3 "" H 6800 3550 50  0001 C CNN
 	1    6800 3550
 	-1   0    0    1   
 $EndComp
@@ -1440,9 +1440,9 @@ L Diode:SB160 D3
 U 1 1 5C4FB6D6
 P 7200 3550
 F 0 "D3" H 7200 3334 50  0000 C CNN
-F 1 "SB160" H 7200 3425 50  0000 C CNN
+F 1 "1N5819" H 7200 3425 50  0000 C CNN
 F 2 "Diode_THT:D_DO-41_SOD81_P10.16mm_Horizontal" H 7200 3375 50  0001 C CNN
-F 3 "http://www.diodes.com/_files/datasheets/ds23022.pdf" H 7200 3550 50  0001 C CNN
+F 3 "" H 7200 3550 50  0001 C CNN
 	1    7200 3550
 	-1   0    0    1   
 $EndComp
@@ -1627,9 +1627,9 @@ L Diode:SB160 D5
 U 1 1 5C6B700D
 P 8950 3950
 F 0 "D5" H 8950 3734 50  0000 C CNN
-F 1 "SB160" H 8950 3825 50  0000 C CNN
+F 1 "1N5819" H 8950 3825 50  0000 C CNN
 F 2 "Diode_THT:D_DO-41_SOD81_P10.16mm_Horizontal" H 8950 3775 50  0001 C CNN
-F 3 "http://www.diodes.com/_files/datasheets/ds23022.pdf" H 8950 3950 50  0001 C CNN
+F 3 "" H 8950 3950 50  0001 C CNN
 	1    8950 3950
 	-1   0    0    1   
 $EndComp
@@ -1638,9 +1638,9 @@ L Diode:SB160 D6
 U 1 1 5C6B7180
 P 9350 3950
 F 0 "D6" H 9350 3734 50  0000 C CNN
-F 1 "SB160" H 9350 3825 50  0000 C CNN
+F 1 "1N5819" H 9350 3825 50  0000 C CNN
 F 2 "Diode_THT:D_DO-41_SOD81_P10.16mm_Horizontal" H 9350 3775 50  0001 C CNN
-F 3 "http://www.diodes.com/_files/datasheets/ds23022.pdf" H 9350 3950 50  0001 C CNN
+F 3 "" H 9350 3950 50  0001 C CNN
 	1    9350 3950
 	-1   0    0    1   
 $EndComp
@@ -1706,7 +1706,7 @@ L Device:R_Small_US R21
 U 1 1 5C7AF3AD
 P 9550 3150
 F 0 "R21" H 9618 3196 50  0000 L CNN
-F 1 "100K" H 9618 3105 50  0000 L CNN
+F 1 "22K" H 9618 3105 50  0000 L CNN
 F 2 "Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder" H 9550 3150 50  0001 C CNN
 F 3 "~" H 9550 3150 50  0001 C CNN
 	1    9550 3150
@@ -2202,6 +2202,7 @@ F 0 "JP1" V 6700 2700 50  0000 L CNN
 F 1 "SolderJumper_3_Open" V 6800 2700 50  0000 L CNN
 F 2 "Jumper:SolderJumper-3_P1.3mm_Open_RoundedPad1.0x1.5mm_NumberLabels" H 6900 2600 50  0001 C CNN
 F 3 "~" H 6900 2600 50  0001 C CNN
+F 4 "NP" V 6800 2500 50  0000 C CNN "NP"
 	1    6900 2600
 	0    1    1    0   
 $EndComp
@@ -2222,6 +2223,7 @@ F 0 "JP2" H 9700 5005 50  0000 C CNN
 F 1 "SolderJumper_2_Open" H 10000 4900 50  0000 C CNN
 F 2 "Jumper:SolderJumper-2_P1.3mm_Open_RoundedPad1.0x1.5mm" H 9700 4800 50  0001 C CNN
 F 3 "~" H 9700 4800 50  0001 C CNN
+F 4 "NP" H 9850 5000 50  0000 C CNN "NP"
 	1    9700 4800
 	1    0    0    -1  
 $EndComp
@@ -2250,7 +2252,7 @@ Also compatible with\nMIC Electret 34320\n(8430552079520)
 Text Notes 500  5650 0    50   ~ 0
 Standalone\nPWR ON/OFF\nswitch
 Text Notes 6600 4000 0    50   ~ 0
-All MIC_in AVC's\nSB160s can be\nreplaced by 1N34A\nor similar
+All MIC_in AVC's\nDIODEs can be\nreplaced by SB160\nor similar
 $Comp
 L kicad-lib:LF33ABDT U5
 U 1 1 5D707AAE
@@ -2395,6 +2397,7 @@ F 0 "JP3" V 3646 4218 50  0000 L CNN
 F 1 "SolderJumper_3_Open" V 3555 4218 50  0000 L CNN
 F 2 "Jumper:SolderJumper-3_P1.3mm_Open_RoundedPad1.0x1.5mm_NumberLabels" H 3600 4150 50  0001 C CNN
 F 3 "~" H 3600 4150 50  0001 C CNN
+F 4 "NP" V 3650 4050 50  0000 C CNN "NP"
 	1    3600 4150
 	0    -1   -1   0   
 $EndComp
