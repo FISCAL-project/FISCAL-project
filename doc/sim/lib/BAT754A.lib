@@ -1,0 +1,63 @@
+*
+*******************************************
+*
+*BAT754A
+*
+*NXP Semiconductors
+*
+*Schottky barrier (double) diodes
+*
+*
+*
+*
+*IFSM = 600mA @ tp = 8,3ms
+*VF   = 600mV @ IF = 100mA
+*
+*
+*
+*
+*
+*
+*
+*
+*
+*
+*Package pinning does not match Spice model pinning.
+*Package: SOT23
+*
+*Package Pin 1: Cathode     D1        
+*Package Pin 2: Cathode     D2      
+*Package Pin 3: Anode;Anode D1;D2
+*
+*
+*
+*Simulator:SPICE2
+*
+*******************************************
+*#
+.SUBCKT BAT754A 1 2
+* 
+* The resistor R1 does not reflect 
+* a physical device.  Instead it
+* improves modeling in the reverse 
+* mode of operation.
+*
+R1 1 2 3.558E+07
+D1 1 2 BAT754A
+*
+.MODEL BAT754A D
++ IS = 2.993E-07
++ N = 1.01
++ BV = 30
++ IBV = 1.5E-06
++ RS = 2.734
++ CJO = 9.228E-12
++ VJ = 0.3033
++ M = 0.4131
++ FC = 0.5178
++ TT = 0
++ EG = 0.69
++ XTI = 2
+.ENDS
+*
+
