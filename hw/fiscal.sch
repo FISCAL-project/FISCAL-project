@@ -6,7 +6,7 @@ $Descr A4 11693 8268
 encoding utf-8
 Sheet 1 1
 Title "FISCAL Expansion board"
-Date "2019-10-13"
+Date "2019-10-30"
 Rev "v01"
 Comp ""
 Comment1 ""
@@ -1706,7 +1706,7 @@ L Device:R_Small_US R21
 U 1 1 5C7AF3AD
 P 9550 3150
 F 0 "R21" H 9618 3196 50  0000 L CNN
-F 1 "22K" H 9618 3105 50  0000 L CNN
+F 1 "100K" H 9618 3105 50  0000 L CNN
 F 2 "Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder" H 9550 3150 50  0001 C CNN
 F 3 "~" H 9550 3150 50  0001 C CNN
 	1    9550 3150
